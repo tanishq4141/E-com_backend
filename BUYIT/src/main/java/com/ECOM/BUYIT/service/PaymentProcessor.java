@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class MockPaymentService {
+public class PaymentProcessor {
 
   private final RestTemplate restTemplate;
 
